@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Urban Dictionary</h1>
+        <div class="main">
+            <center>
+            <p><b>Please enter your word</b></p>
+            <input type="text" id="vocab"><br>
+            <button class="btn" id="btn" onclick="dictionary()">search</button>
+
+            
+            <div class="definition" id="definition"></div>
+            <div class="example" id="example"></div>
+            </center>
+            
+        </div>
+
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
